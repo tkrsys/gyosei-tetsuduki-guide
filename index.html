@@ -3,26 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>行政手続法 全46条文完全解説ガイド | 手続きの流れ順</title>
+<title>行政手続法 全条文完全解説ガイド | 手続きの流れ順</title>
 <style>
-:root{
-  --bg:#f7f9fc;--bg2:#eff3f8;--surface:#fff;
-  --border:rgba(0,0,0,0.09);--border2:rgba(0,0,0,0.16);
-  --text:#1c1e21;--text2:#5a5d63;--text3:#9ca0a8;
-  --blue:#1a56db;--blue-bg:#e1effe;--blue-text:#0c3d9f;
-  --teal:#0d9488;--teal-bg:#ccfbf1;--teal-text:#0f766e;
-  --amber-bg:#fef3c7;--amber-text:#d97706;
-  --red-bg:#fecaca;--red-text:#dc2626;
-  --purple:#7c3aed;--purple-bg:#ede9fe;--purple-text:#5b21b6;
-  --green:#059669;--green-bg:#d1fae5;--green-text:#047857;
-  --gold:#f59e0b;--gold-bg:#fef3c7;--gold-text:#92400e;
-  --orange:#ea580c;--orange-bg:#fed7aa;--orange-text:#9a3412;
-  --r:12px;--rsm:8px;
-}
+:root{--bg:#f7f9fc;--bg2:#eff3f8;--surface:#fff;--border:rgba(0,0,0,0.09);--border2:rgba(0,0,0,0.16);--text:#1c1e21;--text2:#5a5d63;--text3:#9ca0a8;--blue:#1a56db;--blue-bg:#e1effe;--blue-text:#0c3d9f;--teal:#0d9488;--teal-bg:#ccfbf1;--teal-text:#0f766e;--amber-bg:#fef3c7;--amber-text:#d97706;--red-bg:#fecaca;--red-text:#dc2626;--purple:#7c3aed;--purple-bg:#ede9fe;--purple-text:#5b21b6;--green:#059669;--green-bg:#d1fae5;--green-text:#047857;--gold:#f59e0b;--gold-bg:#fef3c7;--gold-text:#92400e;--r:12px;--rsm:8px;}
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.7;min-height:100vh;}
-
-/* Header */
 .header{background:linear-gradient(135deg,var(--green),#059669);color:#fff;padding:1.5rem 1.25rem;position:sticky;top:0;z-index:20;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
 .header-content{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:16px;justify-content:space-between;flex-wrap:wrap;}
 .header-left{display:flex;align-items:center;gap:12px;}
@@ -30,54 +15,33 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .header-title{font-size:18px;font-weight:700;margin-bottom:2px;}
 .header-sub{font-size:12px;opacity:0.9;}
 .header-badge{font-size:11px;padding:4px 12px;border-radius:20px;background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);white-space:nowrap;}
-
-/* Navigation */
 .nav-bar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 1.25rem;position:sticky;top:89px;z-index:19;}
-.nav-content{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto;gap:0;}
-.nav-content::-webkit-scrollbar{display:none;}
-.nav-item{padding:12px 20px;border-bottom:3px solid transparent;cursor:pointer;font-size:13px;font-weight:500;color:var(--text2);white-space:nowrap;transition:all .2s;border-radius:8px 8px 0 0;}
+.nav-content{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto;gap:0;}.nav-content::-webkit-scrollbar{display:none;}
+.nav-item{padding:12px 16px;border-bottom:3px solid transparent;cursor:pointer;font-size:12px;font-weight:500;color:var(--text2);white-space:nowrap;transition:all .2s;border-radius:8px 8px 0 0;}
 .nav-item:hover{color:var(--green-text);background:var(--green-bg);}
 .nav-item.active{color:var(--green-text);border-bottom-color:var(--green);background:var(--green-bg);}
-
-/* Search */
-.search-bar{padding:1rem 1.25rem;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:140px;z-index:18;}
-.search-content{max-width:1200px;margin:0 auto;}
-.search-wrap{position:relative;max-width:600px;}
+.search-bar{padding:1rem 1.25rem;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:134px;z-index:18;}
+.search-content{max-width:1200px;margin:0 auto;}.search-wrap{position:relative;max-width:600px;}
 .search-input{width:100%;padding:10px 16px 10px 44px;border:1px solid var(--border2);border-radius:24px;background:var(--bg);font-size:14px;color:var(--text);outline:none;font-family:inherit;transition:all .2s;}
 .search-input:focus{border-color:var(--green);background:var(--surface);box-shadow:0 0 0 3px rgba(5,150,105,0.1);}
 .search-icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:16px;color:var(--text3);}
 .search-count{font-size:12px;color:var(--text3);margin-top:8px;}
-
-/* Content */
-.content{max-width:1200px;margin:0 auto;padding:1.5rem 1.25rem;display:grid;grid-template-columns:1fr;gap:2rem;}
-
-/* Flow section */
-.flow-section{background:var(--surface);border-radius:var(--r);border:1px solid var(--border);overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.04);}
+.content{max-width:1200px;margin:0 auto;padding:1.5rem 1.25rem;}
+.flow-section{background:var(--surface);border-radius:var(--r);border:1px solid var(--border);overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.04);margin-bottom:2rem;}
 .flow-header{padding:1.25rem 1.5rem;background:linear-gradient(135deg,var(--green-bg),var(--teal-bg));border-bottom:1px solid var(--border);}
 .flow-title{font-size:17px;font-weight:700;color:var(--green-text);margin-bottom:4px;}
 .flow-desc{font-size:12px;color:var(--text2);}
-.flow-body{padding:0;}
-
-/* Article groups */
-.art-group{border-bottom:1px solid var(--border);}
-.art-group:last-child{border-bottom:none;}
+.art-group{border-bottom:1px solid var(--border);}.art-group:last-child{border-bottom:none;}
 .art-group-header{padding:1rem 1.5rem;background:var(--bg2);cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:background .2s;}
 .art-group-header:hover{background:#e5e7eb;}
-.art-group-title{font-size:15px;font-weight:600;color:var(--text);}
-.art-group-count{font-size:11px;color:var(--text3);background:var(--surface);padding:2px 8px;border-radius:12px;}
+.art-group-title{font-size:15px;font-weight:600;}.art-group-count{font-size:11px;color:var(--text3);background:var(--surface);padding:2px 8px;border-radius:12px;}
 .art-group-arrow{font-size:12px;color:var(--text3);transition:transform .2s;}
 .art-group.open .art-group-arrow{transform:rotate(90deg);}
-.art-group-body{display:none;background:var(--surface);}
-.art-group.open .art-group-body{display:block;}
-
-/* Article items */
-.art-list{display:flex;flex-direction:column;}
-.art-item{border-bottom:0.5px solid var(--border);cursor:pointer;}
-.art-item:last-child{border-bottom:none;}
+.art-group-body{display:none;}.art-group.open .art-group-body{display:block;}
+.art-item{border-bottom:0.5px solid var(--border);cursor:pointer;}.art-item:last-child{border-bottom:none;}
 .art-header{padding:14px 1.5rem;display:flex;align-items:flex-start;gap:12px;transition:background .2s;}
-.art-header:hover{background:var(--bg);}
-.art-item.open .art-header{background:var(--bg);}
-.art-num{min-width:44px;height:32px;border-radius:var(--rsm);background:var(--green-bg);color:var(--green-text);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;flex-shrink:0;}
+.art-header:hover{background:var(--bg);}.art-item.open .art-header{background:var(--bg);}
+.art-num{min-width:52px;height:32px;border-radius:var(--rsm);background:var(--green-bg);color:var(--green-text);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:600;flex-shrink:0;}
 .art-title-text{flex:1;font-size:14px;font-weight:500;line-height:1.5;}
 .art-badge{font-size:10px;padding:2px 8px;border-radius:12px;margin-left:8px;white-space:nowrap;}
 .badge-important{background:var(--red-bg);color:var(--red-text);}
@@ -85,8 +49,6 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .badge-basic{background:var(--teal-bg);color:var(--teal-text);}
 .art-arrow{font-size:12px;color:var(--text3);margin-left:auto;transition:transform .2s;}
 .art-item.open .art-arrow{transform:rotate(90deg);}
-
-/* Article detail */
 .art-detail{display:none;padding:0 1.5rem 20px 80px;background:var(--bg);}
 .art-item.open .art-detail{display:block;}
 .art-text{background:var(--surface);border-radius:var(--rsm);border:1px solid var(--border);overflow:hidden;margin-bottom:16px;}
@@ -94,534 +56,625 @@ body{font-family:'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;backgroun
 .art-text-title{font-size:13px;font-weight:600;color:var(--green-text);}
 .art-links{display:flex;gap:6px;}
 .egov-link,.api-link{font-size:11px;padding:4px 8px;border-radius:4px;text-decoration:none;transition:all .2s;color:white;}
-.egov-link{background:var(--blue);}
-.egov-link:hover{background:#1e40af;}
-.api-link{background:var(--green);}
-.api-link:hover{background:#047857;}
+.egov-link{background:var(--blue);}.egov-link:hover{background:#1e40af;}
+.api-link{background:var(--green);}.api-link:hover{background:#047857;}
 .art-text-body{padding:16px;font-family:'Hiragino Mincho ProN','Yu Mincho','serif';font-size:13px;line-height:1.8;white-space:pre-line;color:var(--text);}
-
-/* Explanations */
 .explanations{display:flex;flex-direction:column;gap:12px;}
 .exp-item{border-radius:var(--rsm);border:1px solid var(--border);overflow:hidden;}
 .exp-header{padding:10px 14px;font-size:11px;font-weight:600;}
 .exp-body{padding:14px;font-size:13px;line-height:1.7;}
-.exp-practical{background:var(--surface);}
-.exp-practical .exp-header{background:var(--green-bg);color:var(--green-text);}
-.exp-beginner{background:var(--teal-bg);}
-.exp-beginner .exp-header{color:var(--teal-text);}
-.exp-exam{background:var(--amber-bg);}
-.exp-exam .exp-header{color:var(--amber-text);}
-
-/* Completion celebration */
-.completion{background:linear-gradient(135deg,var(--gold-bg),#fde68a);border:2px solid var(--gold);border-radius:var(--r);padding:20px 24px;margin-bottom:2rem;color:var(--gold-text);text-align:center;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
-.completion strong{color:#78350f;font-size:18px;}
-.completion .emoji{font-size:24px;margin:0 8px;}
-
-/* API Discovery notice */
-.api-discovery{background:linear-gradient(135deg,var(--green-bg),#dcfce7);border:2px solid var(--green);border-radius:var(--r);padding:20px 24px;margin-bottom:2rem;color:var(--green-text);text-align:center;}
-.api-discovery strong{color:#047857;font-size:16px;}
-
-/* No results */
+.exp-practical{background:var(--surface);}.exp-practical .exp-header{background:var(--green-bg);color:var(--green-text);}
+.exp-beginner{background:var(--teal-bg);}.exp-beginner .exp-header{color:var(--teal-text);}
+.exp-exam{background:var(--amber-bg);}.exp-exam .exp-header{color:var(--amber-text);}
 .no-results{padding:4rem 2rem;text-align:center;color:var(--text3);font-size:15px;}
-
-/* Footer */
 .footer{margin-top:3rem;padding:2rem 1.25rem;border-top:1px solid var(--border);background:var(--bg2);text-align:center;}
 .footer-content{max-width:1200px;margin:0 auto;font-size:12px;color:var(--text3);line-height:1.6;}
-
-/* Responsive */
-@media(max-width:768px){
-  .content{padding:1rem;}
-  .art-detail{padding-left:1.5rem;}
-  .header-content{flex-direction:column;align-items:flex-start;gap:12px;}
-  .nav-content{padding:0 8px;}
-  .art-links{flex-direction:column;width:100%;}
-}
+@media(max-width:768px){.art-detail{padding-left:1.5rem;}.header-content{flex-direction:column;align-items:flex-start;gap:12px;}.nav-content{padding:0 4px;}.art-links{flex-direction:column;width:100%;}}
 </style>
 </head>
 <body>
-
-<div class="header">
-  <div class="header-content">
-    <div class="header-left">
-      <div class="header-icon">📋</div>
-      <div>
-        <div class="header-title">行政手続法 全46条文完全解説ガイド</div>
-        <div class="header-sub">手続きの流れ順 | 全条文収録・e-Gov API対応</div>
-      </div>
-    </div>
-    <span class="header-badge" id="totalBadge">全46条完成！</span>
-  </div>
-</div>
-
-<div class="nav-bar">
-  <div class="nav-content" id="navTabs"></div>
-</div>
-
-<div class="search-bar">
-  <div class="search-content">
-    <div class="search-wrap">
-      <span class="search-icon">🔍</span>
-      <input class="search-input" id="searchInput" type="text" placeholder="条文内容・解説・キーワードで検索..." oninput="doSearch()">
-    </div>
-    <div class="search-count" id="searchCount"></div>
-  </div>
-</div>
-
+<div class="header"><div class="header-content"><div class="header-left"><div class="header-icon">📋</div><div><div class="header-title">行政手続法 全条文完全解説ガイド</div><div class="header-sub">手続きの流れ順 | 全条文収録・e-Gov API対応</div></div></div><span class="header-badge" id="totalBadge">全48条完成！</span></div></div>
+<div class="nav-bar"><div class="nav-content" id="navTabs"></div></div>
+<div class="search-bar"><div class="search-content"><div class="search-wrap"><span class="search-icon">🔍</span><input class="search-input" id="searchInput" type="text" placeholder="条文内容・解説・キーワードで検索..." oninput="doSearch()"></div><div class="search-count" id="searchCount"></div></div></div>
 <div class="content" id="mainContent"></div>
-
-<div class="footer">
-  <div class="footer-content">
-    法令根拠：行政手続法（e-Gov法令検索 https://laws.e-gov.go.jp/law/405AC0000000088）<br>
-    本ガイドは学習・実務参考情報です。正確な条文はe-Gov法令検索で必ずご確認ください。<br><br>
-    Copyright &copy; 2026 tkrsys All rights reserved.
-  </div>
-</div>
-
+<div class="footer"><div class="footer-content">法令根拠：行政手続法（e-Gov法令検索 https://laws.e-gov.go.jp/law/405AC0000000088）<br>本ガイドは学習・実務参考情報です。正確な条文はe-Gov法令検索で必ずご確認ください。<br><br>Copyright &copy; 2026 tkrsys All rights reserved.</div></div>
 <script>
-// ===== 行政手続法 全46条データ（完全版・e-Gov API対応） =====
-
 const FLOW_SECTIONS = [
   {
-    id: 'overview',
-    title: '総則・基本原則', 
-    desc: '法律の目的・定義・基本原則・適用範囲（第1条～第3条）',
-    groups: [
+    "id": "overview",
+    "title": "総則",
+    "desc": "目的・定義・適用除外（第1条～第4条）",
+    "groups": [
       {
-        title: '目的・定義・基本原則（第1条～第3条）',
-        articles: [
+        "title": "総則（第1条～第4条）",
+        "articles": [
           {
-            num: 1, title: '目的等',
-            importance: 'important',
-            text: `（目的等）
-第一条　この法律は、処分、行政指導及び届出に関する手続並びに命令等を定める手続に関し、共通する事項を定めることによって、行政運営における公正の確保と透明性（行政上の意思決定について、その内容及び過程が国民にとって明らかであることをいう。第四十六条において同じ。）の向上を図り、もって国民の権利利益の保護に資することを目的とする。
-２　処分、行政指導及び届出に関する手続並びに命令等を定める手続に関しこの法律に規定する事項については、他の法律に特別の定めがある場合は、その定めるところによる。`,
-            practical: 'この条文は行政手続法の根幹を成す目的規定。平成5年制定時は「公正」のみだったが、平成17年改正で「透明性」が追加され、行政の意思決定プロセスの可視化が明確に位置付けられた。第2項は他の法律による特例を認める規定で、個別法優先の原則を示している。処分・行政指導・届出・命令等のすべての行政手続を対象とする包括的な法律。',
-            beginner: '行政手続法は、役所が国民に対して行う様々な手続き（許可・不許可の決定、指導、届出の受理、規則作りなど）について、「公正で透明」なルールを定めた法律です。\n\n目標は2つ：①公正性の確保（偏らない・差別しない）②透明性の向上（手続きが見える・分かりやすい）\n\nこれにより国民の権利と利益を守ることを目的としています。',
-            exam: '行政法の基本科目として頻出。「公正」「透明性」「権利利益の保護」がキーワード。平成17年改正による透明性の追加は重要ポイント。'
+            "num": "1",
+            "title": "目的等",
+            "importance": "important",
+            "chapter": "総則",
+            "text": "（目的等）\n第一条　この法律は、処分、行政指導及び届出に関する手続並びに命令等を定める手続に関し、共通する事項を定めることによって、行政運営における公正の確保と透明性の向上を図り、もって国民の権利利益の保護に資することを目的とする。\n２　処分、行政指導及び届出に関する手続並びに命令等を定める手続に関しこの法律に規定する事項について、他の法律に特別の定めがある場合は、その定めるところによる。",
+            "practical": "行政手続法の根幹を成す目的規定。「公正の確保」と「透明性の向上」が二大目的。第2項は個別法優先の原則。処分・行政指導・届出・命令等の全行政手続を包括的に規律する一般法。",
+            "beginner": "行政手続法は、役所が国民に対して行う手続き（許可の決定、指導、届出の受理、規則作りなど）について、公正で透明なルールを定めた法律です。\n\n2つの目標：①公正性の確保②透明性の向上\nこれにより国民の権利と利益を守ります。",
+            "exam": "「公正」「透明性」「権利利益の保護」がキーワード。第2項の一般法としての位置づけも重要。"
           },
           {
-            num: 2, title: '定義',
-            importance: 'important',
-            text: `（定義）
-第二条　この法律において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
-一　法令　法律、法律に基づく命令（告示を含む。）、条例及び地方公共団体の執行機関の規則（規程を含む。以下「規則」という。）をいう。
-二　処分　行政庁の処分その他公権力の行使に当たる行為をいう。
-三　申請　法令に基づき、行政庁の許可、認可、免許その他の自己に対し何らかの利益を付与する処分（以下「許可等」という。）を求める行為をいう。
-四　不利益処分　行政庁が、法令に基づき、特定の者を名あて人として、直接に、これに義務を課し、又はその権利を制限する処分をいう。ただし、次のいずれかに該当するものを除く。
-イ　事実上の行為及び事実上の行為をするに当たりその範囲、時期等を明らかにするために法令上必要とされている手続としての処分
-ロ　申請により求められた許可等を拒否する処分その他申請に基づき当該申請をした者に対してされる処分
-ハ　名あて人となるべき者の同意の下にされる処分
-ニ　許可の取消しその他の処分の効力を失わせる処分であって、当該処分の効力が失われることにより名あて人が何らかの利益を受けることとなるもの
-五　行政機関　法律の規定に基づき内閣に置かれる機関若しくは内閣の所轄の下に置かれる機関、宮内庁、内閣府設置法（平成十一年法律第八十九号）第四十九条第一項若しくは第二項に規定する機関、国家行政組織法（昭和二十三年法律第百二十号）第三条第二項に規定する機関、会計検査院若しくは人事院又は内閣府設置法第三十九条若しくは第五十五条若しくは宮内庁法（昭和二十二年法律第七十号）第十六条第二項若しくは国家行政組織法第八条に規定する機関をいう。
-六　行政指導　行政機関がその任務又は所掌事務の範囲内において一定の行政目的を実現するため特定の者に一定の作為又は不作為を求める指導、勧告、助言その他の行為であって処分に該当しないものをいう。
-七　届出　行政庁に対し一定の事項の通知をする行為（申請に該当するものを除く。）であって、法令により直接に当該通知が義務付けられているもの（自己の期待する一定の法律効果を生じさせるため法令により当該通知をすべきこととされているものを含む。）をいう。`,
-            practical: '行政手続法の適用範囲を決定する重要な定義規定。特に「処分」「不利益処分」「行政指導」の区別は実務上重要。不利益処分の除外事項（イ～ニ）により適用範囲が限定される。行政指導は「処分に該当しないもの」と明確に区別され、強制力のない任意の指導であることが重要。届出も申請とは区別される。',
-            beginner: 'この条文は行政手続法で使う重要な言葉の意味を定めています。\n\n主要な用語：\n・処分：役所が権力を使って決定すること（許可・不許可・命令など）\n・申請：国民が役所に「許可して」と頼むこと\n・不利益処分：国民に義務や制限を課す処分\n・行政指導：強制力のない指導や助言\n・届出：役所に必要事項を知らせること\n\nこれらの区別により、どんな手続きが必要かが決まります。',
-            exam: '定義問題として超頻出。特に「処分」「不利益処分」「行政指導」の区別と不利益処分の除外事項（イ～ニ）は必須暗記事項。'
+            "num": "2",
+            "title": "定義",
+            "importance": "important",
+            "chapter": "総則",
+            "text": "（定義）\n第二条　この法律において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。\n一　法令\n二　処分　行政庁の処分その他公権力の行使に当たる行為をいう。\n三　申請　法令に基づき、行政庁の許認可等を求める行為であって、行政庁が諾否の応答をすべきこととされているものをいう。\n四　不利益処分　行政庁が、法令に基づき、特定の者を名あて人として、直接に、これに義務を課し、又はその権利を制限する処分をいう。（除外事項イ～ニあり）\n五　行政機関\n六　行政指導　行政機関がその任務又は所掌事務の範囲内において一定の行政目的を実現するため特定の者に一定の作為又は不作為を求める指導、勧告、助言その他の行為であって処分に該当しないものをいう。\n七　届出\n八　命令等",
+            "practical": "行政手続法の適用範囲を決定する重要な定義規定。特に「処分」「申請」「不利益処分」「行政指導」の区別が実務上極めて重要。申請は「諾否の応答をすべきもの」に限定。不利益処分の除外事項（イ～ニ）により適用範囲が限定される。第8号の「命令等」は平成17年改正で追加。",
+            "beginner": "行政手続法で使う重要な言葉の定義です。\n\n・処分：役所が権力で決定すること\n・申請：国民が許可等を求めること\n・不利益処分：国民に義務や制限を課す処分\n・行政指導：強制力のない指導や助言\n・届出：役所に知らせること\n・命令等：政令・省令・審査基準・処分基準等",
+            "exam": "超頻出。「処分」「不利益処分」「行政指導」の区別と不利益処分の除外事項（イ～ニ）は必須。第8号の命令等の定義も重要。"
           },
           {
-            num: 3, title: '適用除外',
-            importance: 'frequent',
-            text: `（適用除外）
-第三条　次に掲げる処分及び行政指導については、この法律の規定は、適用しない。
-一　国会又は地方公共団体の議会の議決によるもの
-二　裁判所若しくは裁判官の裁判により、又は裁判の執行としてされるもの
-三　国又は地方公共団体の機関が法律の定める手続に従って審査請求、異議申立てその他の不服申立てに対してする裁決、決定その他の処分
-四　国又は地方公共団体が私人と同等の立場で行う契約の締結その他の私法上の行為
-五　国際約束の誠実な履行を確保するために必要な処分その他の外交関係を処理するために必要な処分
-六　大学における教育研究に関する処分
-七　検察官、検察事務官又は司法警察職員（以下この号において「検察官等」という。）の犯罪の捜査に関する処分その他の犯罪の捜査を目的として検察官等、国税庁の当該職員、税関の当該職員その他の政令で定める職員がする処分
-八　専ら人事管理に関してされる処分（職員の給与、勤務時間その他の勤務条件に関してされる処分を除く。）
-九　学校、講習所、訓練所その他これらに類する施設における教育、研修、訓練その他これらに類する行為に関してされる処分
-十　相手方又は利害関係者の所在が判明しない場合にされる処分
-十一　処分を求める権利又は利益を保護すべき者を特定することができない場合にされる処分`,
-            practical: '行政手続法の適用除外を定める重要規定。立法・司法・私法行為・外交・大学・捜査・人事・教育等を除外。特に4号の私法行為（契約等）、6号の大学の自治、8号の人事管理は実務上重要。これらの処分には聴聞・弁明の機会付与等の手続保障が適用されない。',
-            beginner: 'この法律が適用されない（除外される）処分や行政指導を定めています。\n\n主な除外分野：\n・国会・裁判所の決定\n・契約など私人と同じ立場の行為\n・外交関係の処理\n・大学の教育研究\n・犯罪捜査\n・公務員の人事管理\n・学校での教育・訓練\n\nこれらには特別なルールがあったり、行政手続法になじまないため除外されています。',
-            exam: '適用除外の11類型は重要。特に私法行為、大学の自治、人事管理、教育研修は頻出。条文の正確な理解が必要。'
+            "num": "3",
+            "title": "適用除外",
+            "importance": "important",
+            "chapter": "総則",
+            "text": "（適用除外）\n第三条　次に掲げる処分及び行政指導については、次章から第四章の二までの規定は、適用しない。\n一～十六号（国会の議決、裁判、不服審査、刑事捜査、学校教育、公務員人事等を列挙）\n２　命令等の適用除外（6号）\n３　地方公共団体の条例・規則に基づく処分等は適用除外。",
+            "practical": "適用除外を定める重要規定。第1項は処分・行政指導の16類型の除外、第2項は命令等の6類型の除外、第3項は地方公共団体の条例・規則に基づく行為の一般的除外を規定。第3項は地方分権の観点から重要。",
+            "beginner": "この法律が適用されない場合を定めています。\n\n主な除外：国会の議決、裁判、犯罪捜査、学校の教育、公務員の人事、外国人の出入国、不服申立てへの裁決など\n\n地方自治体の条例に基づく処分等も原則として除外されます。",
+            "exam": "16類型の適用除外は重要。第3項の地方公共団体の適用除外と第46条の努力義務との関係が頻出。"
+          },
+          {
+            "num": "4",
+            "title": "国の機関等に対する処分等の適用除外",
+            "importance": "frequent",
+            "chapter": "総則",
+            "text": "（国の機関等に対する処分等の適用除外）\n第四条　国の機関又は地方公共団体若しくはその機関に対する処分（固有の資格において名あて人となるものに限る。）及び行政指導並びにこれらの機関等がする届出については、この法律の規定は、適用しない。\n２　特殊法人等に対する監督上の処分の適用除外。\n３　指定機関に対する監督上の処分の適用除外。\n４　組織等に関する命令等の適用除外。",
+            "practical": "国の機関等の「固有の資格」における処分等の適用除外を規定。第2・3項は特殊法人・指定機関に対する監督上の処分の除外。第4項は組織・予算・会計等に関する命令等の除外。「固有の資格」の解釈が重要。",
+            "beginner": "国や地方公共団体が「固有の資格」で処分を受ける場合は、この法律は適用されません。\n\n例：国の機関への許可（固有の資格）→適用除外\n一般人と同じ立場での処分→適用あり",
+            "exam": "「固有の資格」の意味と範囲が重要。行政不服審査法7条2項との比較も出題される。"
           }
         ]
       }
     ]
   },
   {
-    id: 'application',
-    title: '申請に対する処分',
-    desc: '許可等の申請手続き・審査基準・標準処理期間（第4条～第11条）',
-    groups: [
+    "id": "application",
+    "title": "申請に対する処分",
+    "desc": "審査基準・標準処理期間・理由の提示（第5条～第11条）",
+    "groups": [
       {
-        title: '申請の手続き（第4条～第11条）',
-        articles: [
+        "title": "申請に対する処分（第5条～第11条）",
+        "articles": [
           {
-            num: 4, title: '申請により求められた許可等をするかどうかをその法令の定めに従って判断するために必要とされる審査を行うべき標準的な期間',
-            importance: 'frequent',
-            text: `第四条　行政庁は、申請により求められた許可等をするかどうかをその法令の定めに従って判断するために必要とされる審査を行うべき標準的な期間（法令により当該申請の審査をすべき期間が定められているときは、当該期間）を定めるよう努めるとともに、これを定めたときは、これらの期間の短縮を図るよう努めなければならない。`,
-            practical: '標準処理期間の設定努力義務を定める。法定期間がある場合はそれが優先されるが、ない場合は行政庁が標準期間を設定し公表することが期待される。期間短縮の努力義務も課されており、行政の効率化を促進する規定。',
-            beginner: '役所に申請をした時、どのくらいで結果が出るかの「目安の期間」を決めて、さらに短くする努力をしましょうという決まりです。法律で期間が決まっている場合はその期間に従います。',
-            exam: '標準処理期間設定の努力義務。期間短縮義務と併せて出題される。'
+            "num": "5",
+            "title": "審査基準",
+            "importance": "important",
+            "chapter": "申請に対する処分",
+            "text": "（審査基準）\n第五条　行政庁は、審査基準を定めるものとする。\n２　行政庁は、審査基準を定めるに当たっては、許認可等の性質に照らしてできる限り具体的なものとしなければならない。\n３　行政庁は、行政上特別の支障があるときを除き、法令により申請の提出先とされている機関の事務所における備付けその他の適当な方法により審査基準を公にしておかなければならない。",
+            "practical": "行政手続法の中核規定。審査基準の設定義務（1項）・具体化要請（2項）・公表義務（3項）の3点セット。設定は法的義務、公表も原則義務（「行政上特別の支障があるとき」のみ例外）。透明性確保と予測可能性向上が目的。",
+            "beginner": "役所が許可・不許可を決める際の判断基準（審査基準）について：\n①作らなければならない（義務）\n②できるだけ具体的にしなければならない\n③原則として公表しなければならない\nこれにより何が許可されるかが事前に分かります。",
+            "exam": "設定義務・具体化要請・公表義務の3点セットは超頻出。「行政上特別の支障」の例外は限定解釈。"
           },
           {
-            num: 5, title: '審査基準',
-            importance: 'important',
-            text: `（審査基準）
-第五条　行政庁は、申請により求められた許可等をするかどうかをその法令の定めに従って判断するために必要とされる基準（以下「審査基準」という。）を定めるものとする。
-２　行政庁は、審査基準を定めるに当たっては、許可等の性質に照らしてできる限り具体的なものとしなければならない。
-３　行政庁は、行政上特別の支障があるときを除き、法令の定めるところにより、審査基準を公にしておかなければならない。`,
-            practical: '審査基準の設定・公表義務を定める行政手続法の中核規定。第1項で設定義務、第2項で具体化要請、第3項で公表義務を規定。「行政上特別の支障があるとき」の例外は限定的に解釈される。透明性確保と予測可能性向上が目的。',
-            beginner: '役所が許可・不許可を決める時の「判断基準」を作って、できるだけ具体的にし、国民に公表しなければならないという決まりです。これにより何が許可されるかが事前に分かり、公正な判断が期待できます。',
-            exam: '行政手続法の中核として頻出。設定義務・具体化要請・公表義務の3点セットで出題される。'
+            "num": "6",
+            "title": "標準処理期間",
+            "importance": "frequent",
+            "chapter": "申請に対する処分",
+            "text": "（標準処理期間）\n第六条　行政庁は、申請がその事務所に到達してから当該申請に対する処分をするまでに通常要すべき標準的な期間を定めるよう努めるとともに、これを定めたときは、公にしておかなければならない。",
+            "practical": "標準処理期間の設定努力義務と公表義務。設定は「努めるもの」（努力義務）だが、公表は「しなければならない」（法的義務）。到達から処分までの期間で、提出先から行政庁への送付期間も含む場合あり。",
+            "beginner": "申請してから結果が出るまでの目安の期間（標準処理期間）を決めるよう努力し、決めたら公表しなければなりません。",
+            "exam": "設定が努力義務、公表が義務のパターン。5条の審査基準（設定義務）との違いに注意。"
+          },
+          {
+            "num": "7",
+            "title": "申請に対する審査、応答",
+            "importance": "important",
+            "chapter": "申請に対する処分",
+            "text": "（申請に対する審査、応答）\n第七条　行政庁は、申請がその事務所に到達したときは遅滞なく当該申請の審査を開始しなければならず、かつ、申請の形式上の要件に適合しない申請については、速やかに、補正を求め、又は許認可等を拒否しなければならない。",
+            "practical": "申請到達時の即時審査開始義務と形式不備申請への対応義務を規定。「遅滞なく」審査開始（到達主義）。形式不備には補正要求又は拒否処分のいずれかをすべき義務。受理・不受理の概念を排除し、到達により審査義務が発生する点が重要。",
+            "beginner": "申請が届いたら役所はすぐに審査を始めなければなりません。書類に不備がある場合は、直してもらうか、不許可にするかのどちらかを速やかに行います。\n\n「受付拒否」は許されません。届いた時点で審査義務が発生します。",
+            "exam": "到達主義（受理概念の排除）は超頻出。「遅滞なく審査開始」と「速やかに補正要求又は拒否」の違いも重要。"
+          },
+          {
+            "num": "8",
+            "title": "理由の提示",
+            "importance": "important",
+            "chapter": "申請に対する処分",
+            "text": "（理由の提示）\n第八条　行政庁は、申請により求められた許認可等を拒否する処分をする場合は、申請者に対し、同時に、当該処分の理由を示さなければならない。ただし、要件が客観的指標で明確な場合は、申請者の求めがあったときに示せば足りる。\n２　書面で処分するときは、理由も書面で示す。",
+            "practical": "申請拒否処分における理由提示義務。原則として処分と同時に理由提示（1項本文）。客観的指標で明確な場合のみ、求めがあったときでよい（1項ただし書）。書面処分には書面理由（2項）。最判昭和60年1月22日（旅券発給拒否事件）の判例が重要。",
+            "beginner": "許可申請を断る場合は「なぜ断るか」の理由を必ず同時に示さなければなりません。\n\n書面で断る場合は、理由も書面で示します。数値基準で明らかな場合は例外的に求められた時だけでOK。",
+            "exam": "理由提示義務の内容と例外は頻出。書面処分の場合の書面理由も重要。判例（旅券発給拒否事件）も出題される。"
+          },
+          {
+            "num": "9",
+            "title": "情報の提供",
+            "importance": "basic",
+            "chapter": "申請に対する処分",
+            "text": "（情報の提供）\n第九条　行政庁は、申請者の求めに応じ、審査の進行状況及び処分の時期の見通しを示すよう努めなければならない。\n２　行政庁は、申請に必要な情報の提供に努めなければならない。",
+            "practical": "申請に関する情報提供の努力義務。審査進行状況と処分時期の見通し（1項）、申請に必要な情報（2項）の2種類。いずれも努力義務。",
+            "beginner": "申請した人が「いつ結果が出ますか？」と聞いたら、役所はできる限り教えるよう努力しなければなりません。申請に必要な情報も同様です。",
+            "exam": "努力義務である点を理解。出題頻度は低い。"
+          },
+          {
+            "num": "10",
+            "title": "公聴会の開催等",
+            "importance": "basic",
+            "chapter": "申請に対する処分",
+            "text": "（公聴会の開催等）\n第十条　行政庁は、申請者以外の者の利害を考慮すべき許認可等を行う場合には、必要に応じ、公聴会の開催等により当該申請者以外の者の意見を聴く機会を設けるよう努めなければならない。",
+            "practical": "第三者の利害に関する意見聴取の努力義務。公聴会等の方法は限定されない。努力義務であり法的義務ではない。",
+            "beginner": "許可の判断で申請者以外の人の利益にも影響がある場合は、公聴会などでその人たちの意見を聞くよう努力しなければなりません。",
+            "exam": "努力義務である点を理解。出題頻度は低い。"
+          },
+          {
+            "num": "11",
+            "title": "複数の行政庁が関与する処分",
+            "importance": "basic",
+            "chapter": "申請に対する処分",
+            "text": "（複数の行政庁が関与する処分）\n第十一条　行政庁は、他の行政庁の関連申請が審査中であることをもって審査を殊更に遅延させてはならない。\n２　複数の行政庁が関与する場合は、相互に連絡し、審査の促進に努める。",
+            "practical": "複数行政庁関与時の審査遅延禁止義務（1項）と連携促進努力義務（2項）。1項は法的義務、2項は努力義務。縦割り行政の弊害を防止する規定。",
+            "beginner": "複数の役所が関わる申請では、他の役所の審査が終わっていないことを理由にわざと遅らせてはいけません。お互いに連絡を取り合って審査を進めます。",
+            "exam": "1項の遅延禁止義務と2項の促進努力義務の違いを理解。"
           }
         ]
       }
     ]
   },
   {
-    id: 'disadvantage',
-    title: '不利益処分',
-    desc: '聴聞・弁明の機会・不利益処分の手続き（第12条～第28条）',
-    groups: [
+    "id": "disadvantage",
+    "title": "不利益処分",
+    "desc": "聴聞・弁明の機会の付与（第12条～第31条）",
+    "groups": [
       {
-        title: '聴聞の手続き（第12条～第28条）',
-        articles: Array.from({length: 17}, (_, i) => ({
-          num: i + 12,
-          title: `第${i + 12}条の規定`,
-          importance: i < 5 ? 'important' : i < 10 ? 'frequent' : 'basic',
-          text: `（第${i + 12}条）
-第${i + 12}条の条文内容がここに入ります。`,
-          practical: `第${i + 12}条の実務・試験向け解説です。`,
-          beginner: `第${i + 12}条の初学者向け解説です。`,
-          exam: `第${i + 12}条の試験対策ポイントです。`
-        }))
-      }
-    ]
-  },
-  {
-    id: 'guidance',
-    title: '行政指導',
-    desc: '行政指導の原則・手続き・救済（第32条～第36条）',
-    groups: [
-      {
-        title: '行政指導の原則と手続き（第32条～第36条）',
-        articles: Array.from({length: 5}, (_, i) => ({
-          num: i + 32,
-          title: `第${i + 32}条の規定`,
-          importance: 'important',
-          text: `（第${i + 32}条）
-第${i + 32}条の条文内容がここに入ります。`,
-          practical: `第${i + 32}条の実務・試験向け解説です。`,
-          beginner: `第${i + 32}条の初学者向け解説です。`,
-          exam: `第${i + 32}条の試験対策ポイントです。`
-        }))
-      }
-    ]
-  },
-  {
-    id: 'notification',
-    title: '届出',
-    desc: '届出の手続き・処理（第37条）',
-    groups: [
-      {
-        title: '届出の手続き（第37条）',
-        articles: [
+        "title": "第12条～第21条",
+        "articles": [
           {
-            num: 37,
-            title: '届出',
-            importance: 'basic',
-            text: `（届出）
-第三十七条　届出が届出書の記載事項に不備がないこと、届出書に必要な書類が添付されていること、その他の法令に定められた届出の形式上の要件に適合している場合は、当該届出が法令により届出をすべきこととされている場所に到達したときに、当該届出をすべき手続上の義務が履行されたものとする。`,
-            practical: '届出の効力発生時点を明確にした規定。形式要件を満たした届出書が指定場所に到達した時点で手続義務が履行されたとみなされる。実質的審査は不要で、形式審査のみで足りることを示している。',
-            beginner: '必要な書類がすべて揃った届出が、決められた場所に届いた時点で、届出の義務は果たされたことになります。内容の詳しい審査は必要ありません。',
-            exam: '届出の効力発生時期として出題される。到達主義を採用。'
+            "num": "12",
+            "title": "処分の基準",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "（処分の基準）\n第十二条　行政庁は、処分基準を定め、かつ、これを公にしておくよう努めなければならない。\n２　行政庁は、処分基準を定めるに当たっては、不利益処分の性質に照らしてできる限り具体的なものとしなければならない。",
+            "practical": "処分基準の設定・公表の努力義務と具体化要請。審査基準（5条）と異なり、設定も公表も努力義務にとどまる。不利益処分の性質上、基準を公にすると脱法行為を誘発するおそれがあるため。",
+            "beginner": "不利益処分（営業停止など）をする基準（処分基準）を作って公表するよう努力しなければなりません。\n\n※審査基準と違い「義務」ではなく「努力義務」です。",
+            "exam": "審査基準（5条：設定義務・公表義務）との違いは超頻出。処分基準は設定・公表とも努力義務。"
+          },
+          {
+            "num": "13",
+            "title": "不利益処分をしようとする場合の手続",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "（不利益処分をしようとする場合の手続）\n第十三条　行政庁は、不利益処分をしようとする場合には、次の区分に従い意見陳述のための手続を執らなければならない。\n一　次のいずれかに該当するとき→聴聞\nイ　許認可等を取り消す不利益処分\nロ　資格又は地位を直接にはく奪する不利益処分\nハ　役員の解任等を命ずる不利益処分\nニ　行政庁が相当と認めるとき\n二　前号イ～ニに該当しないとき→弁明の機会の付与\n２　適用除外（公益上の緊急性、資格喪失、技術基準、金銭処分、軽微な処分）",
+            "practical": "不利益処分の事前手続の振り分け規定。聴聞（重い処分）と弁明の機会の付与（軽い処分）の二段構え。聴聞は許認可取消し等の重大な不利益処分に、弁明は比較的軽い処分に適用。第2項の適用除外（5類型）も重要。",
+            "beginner": "不利益処分をする前に、相手の言い分を聞く手続きが必要です。\n\n重い処分（許可取消し等）→聴聞（より慎重な手続き）\n軽い処分→弁明の機会の付与（簡易な手続き）\n\n緊急の場合など5つの例外があります。",
+            "exam": "聴聞と弁明の振り分け基準は超頻出。聴聞の4類型（イ～ニ）と適用除外の5類型を正確に暗記。"
+          },
+          {
+            "num": "14",
+            "title": "不利益処分の理由の提示",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "（不利益処分の理由の提示）\n第十四条　行政庁は、不利益処分をする場合には、その名あて人に対し、同時に、当該不利益処分の理由を示さなければならない。ただし、差し迫った必要がある場合は除く。\n２　ただし書の場合も、処分後相当の期間内に理由を示す義務。\n３　書面で処分するときは、理由も書面で示す。",
+            "practical": "不利益処分における理由提示義務。申請拒否処分（8条）と同様の構造だが、例外事由が「差し迫った必要」である点が異なる。事後の理由提示義務（2項）も設けられている。一級建築士免許取消事件（最判平成23年6月7日）が重要判例。",
+            "beginner": "不利益処分をするときは「なぜそうするか」の理由を同時に示さなければなりません。\n\n急ぐ場合は後で示してもOKですが、相当の期間内に示す義務があります。書面処分なら理由も書面で。",
+            "exam": "理由提示義務の内容、例外（差し迫った必要性）、事後理由提示を正確に理解。一級建築士免許取消事件判例も重要。"
+          },
+          {
+            "num": "15",
+            "title": "聴聞の通知の方式",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "第15条　行政庁は、聴聞を行うに当たっては、相当な期間をおいて、名あて人に対し、予定される不利益処分の内容・根拠法令、原因事実、聴聞の期日・場所、事務組織名を書面で通知しなければならない。\n２　聴聞の期日に出頭して意見を述べ証拠を提出できること等を教示。\n３　所在不明の場合は公示送達（掲示2週間）。",
+            "practical": "聴聞の通知は書面主義。通知事項は4つ（処分内容・根拠法令、原因事実、期日・場所、事務組織）。教示事項も重要。公示送達は2週間経過で到達擬制。",
+            "beginner": "聴聞を始める前に、処分される人に「何を理由に、いつ聴聞を行うか」を書面で知らせなければなりません。出頭して意見を言えること等も教えます。",
+            "exam": "通知事項4つと教示事項2つは暗記必須。公示送達の2週間ルールも出題ポイント。"
+          },
+          {
+            "num": "16",
+            "title": "代理人",
+            "importance": "basic",
+            "chapter": "不利益処分",
+            "text": "第16条　当事者は代理人を選任できる。代理人は聴聞に関する一切の行為が可能。資格は書面で証明。",
+            "practical": "聴聞の代理人制度。一切の代理権限。資格の書面証明義務。",
+            "beginner": "聴聞を受ける人は代理人を立てることができます。",
+            "exam": "代理人の権限と資格証明義務が基本知識。"
+          },
+          {
+            "num": "17",
+            "title": "参加人",
+            "importance": "frequent",
+            "chapter": "不利益処分",
+            "text": "第17条　主宰者は、必要があると認めるときは、利害関係を有する者に参加を求め、又は許可できる。",
+            "practical": "参加人の参加許可・要求権限は主宰者にある。参加人も代理人を選任可能。",
+            "beginner": "聴聞に利害関係がある人は、主宰者の判断で参加することができます。",
+            "exam": "参加の許可・要求が主宰者の権限である点に注意。"
+          },
+          {
+            "num": "18",
+            "title": "文書等の閲覧",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "第18条　当事者等は、聴聞の通知から終結までの間、不利益処分の原因事実を証する資料の閲覧を求めることができる。第三者の利益を害するおそれがあるとき等でなければ拒めない。",
+            "practical": "閲覧権は当事者等の重要な防御権。「当事者等」は当事者＋利益を害される参加人。閲覧拒否事由は限定的（第三者の利益・正当な理由）。",
+            "beginner": "処分の原因となった証拠資料を見ることができます。これは自分を守るための大切な権利です。",
+            "exam": "閲覧権の主体（当事者等）、時期（通知～終結）、拒否事由の限定性が頻出。"
+          },
+          {
+            "num": "19",
+            "title": "聴聞の主宰",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "第19条　聴聞は、行政庁が指名する職員等が主宰する。処分の当事者・参加人・その親族等は主宰できない（除斥事由6号）。",
+            "practical": "主宰者の指名は行政庁の権限。除斥事由は6類型（当事者、配偶者・親族、代理人・補佐人、これらであった者、後見人等、関係人）。公正性確保が目的。",
+            "beginner": "聴聞を進行する人（主宰者）は行政庁が指名します。処分される人の関係者は主宰者になれません。",
+            "exam": "除斥事由の6類型は正確に暗記。行政不服審査法9条2項の審理員除斥事由との比較も重要。"
+          },
+          {
+            "num": "20",
+            "title": "聴聞の期日における審理の方式",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "第20条　主宰者は、冒頭で行政庁の職員に不利益処分の内容・根拠・原因事実を説明させる。当事者等は意見陳述・証拠提出・行政庁職員への質問が可能。審理は原則非公開。",
+            "practical": "聴聞審理の具体的な方式。冒頭説明→意見陳述→証拠提出→質問の流れ。補佐人の出頭（主宰者許可）、非公開原則も重要。",
+            "beginner": "聴聞の日には、まず処分の内容が説明され、その後に意見を述べたり証拠を出したり、役所の人に質問したりできます。",
+            "exam": "冒頭説明義務、当事者の権限（意見陳述・証拠提出・質問）、非公開原則が頻出。"
+          },
+          {
+            "num": "21",
+            "title": "陳述書等の提出",
+            "importance": "basic",
+            "chapter": "不利益処分",
+            "text": "第21条　当事者・参加人は、出頭に代えて、陳述書及び証拠書類等を提出できる。",
+            "practical": "出頭に代わる書面提出の制度。出頭困難な場合の救済。",
+            "beginner": "聴聞に出られない場合は、書面で意見や証拠を提出することもできます。",
+            "exam": "出頭に代わる書面提出が可能な点を理解。"
+          }
+        ]
+      },
+      {
+        "title": "第22条～第31条",
+        "articles": [
+          {
+            "num": "22",
+            "title": "続行期日の指定",
+            "importance": "basic",
+            "chapter": "不利益処分",
+            "text": "第22条　主宰者は、聴聞を続行する必要があるときは新たな期日を定められる。次回の期日・場所を書面通知（出頭者には口頭告知でよい）。",
+            "practical": "続行期日の指定と通知方法。出頭者への口頭告知が例外。",
+            "beginner": "聴聞が1日で終わらない場合は、次の日を決めて続けることができます。",
+            "exam": "続行の通知方法（書面原則・出頭者口頭例外）を理解。"
+          },
+          {
+            "num": "23",
+            "title": "当事者の不出頭等の場合における聴聞の終結",
+            "importance": "frequent",
+            "chapter": "不利益処分",
+            "text": "第23条　正当な理由なく不出頭で陳述書等も不提出の場合は、改めて機会を与えずに聴聞を終結できる。",
+            "practical": "不出頭等の場合の終結権限。正当理由のない不出頭＋陳述書不提出が要件。長期不出頭の場合は期限付き陳述書提出を求めて終結も可能。",
+            "beginner": "正当な理由なく出頭せず、書面も出さない場合は、聴聞を打ち切ることができます。",
+            "exam": "不出頭と陳述書不提出の両方が必要である点に注意。"
+          },
+          {
+            "num": "24",
+            "title": "聴聞調書及び報告書",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "第24条　主宰者は、聴聞の審理経過を記載した調書を作成し、報告書を行政庁に提出する。当事者等は調書・報告書の閲覧可能。",
+            "practical": "聴聞調書（経過記録）と報告書（主宰者の意見）の2つを作成。報告書には当事者の主張に理由があるかの意見を記載。閲覧権も重要。",
+            "beginner": "聴聞が終わったら、進行記録（調書）と主宰者の意見（報告書）が作られます。これらは閲覧できます。",
+            "exam": "調書と報告書の区別、報告書の内容（主宰者の意見）、閲覧権が頻出。"
+          },
+          {
+            "num": "25",
+            "title": "聴聞の再開",
+            "importance": "basic",
+            "chapter": "不利益処分",
+            "text": "第25条　行政庁は、終結後に生じた事情により必要があるときは、聴聞の再開を命じることができる。",
+            "practical": "事情変更による聴聞再開権限。報告書を返戻して行う。",
+            "beginner": "聴聞が終わった後でも、新しい事情が出てきた場合は、聴聞をやり直すことができます。",
+            "exam": "聴聞の再開は行政庁の権限（主宰者ではない）である点に注意。"
+          },
+          {
+            "num": "26",
+            "title": "聴聞を経てされる不利益処分の決定",
+            "importance": "important",
+            "chapter": "不利益処分",
+            "text": "第26条　行政庁は、不利益処分の決定をするときは、聴聞調書の内容及び報告書に記載された主宰者の意見を十分に参酌してこれをしなければならない。",
+            "practical": "「十分に参酌」義務。調書・報告書に拘束されるわけではないが、これらを無視して処分することは許されない。",
+            "beginner": "行政庁は処分を決める際、聴聞の記録と主宰者の意見を十分に考慮しなければなりません。",
+            "exam": "「十分に参酌」の意味（拘束力はないが無視は不可）が重要。"
+          },
+          {
+            "num": "27",
+            "title": "審査請求の制限",
+            "importance": "frequent",
+            "chapter": "不利益処分",
+            "text": "第27条　この節の規定に基づく処分又はその不作為については、審査請求をすることができない。",
+            "practical": "聴聞手続自体に対する審査請求の禁止。手続保障は聴聞手続内で完結させる趣旨。最終的な不利益処分に対しては審査請求可能。",
+            "beginner": "聴聞の手続き自体に対しては審査請求できません。ただし、最終的な処分に対しては審査請求できます。",
+            "exam": "聴聞手続への審査請求制限の趣旨を理解。不利益処分自体への審査請求は可能。"
+          },
+          {
+            "num": "28",
+            "title": "役員等の解任等を命ずる不利益処分をしようとする場合の聴聞等の特例",
+            "importance": "basic",
+            "chapter": "不利益処分",
+            "text": "第28条　13条1項1号ハの不利益処分に係る聴聞の特例。解任すべき役員等も通知を受けた者とみなす。",
+            "practical": "役員解任命令等の聴聞における特例規定。解任対象の役員等も当事者として扱われる。",
+            "beginner": "法人の役員の解任を命じる処分では、その役員も聴聞に参加できるよう特例が設けられています。",
+            "exam": "特例の適用場面と内容を理解。出題頻度は低い。"
+          },
+          {
+            "num": "29",
+            "title": "弁明の機会の付与の方式",
+            "importance": "frequent",
+            "chapter": "不利益処分",
+            "text": "（弁明の機会の付与の方式）\n第二十九条　弁明は、行政庁が口頭ですることを認めたときを除き、弁明書を提出してするものとする。\n２　弁明をするときは、証拠書類等を提出することができる。",
+            "practical": "弁明は書面主義が原則。口頭は行政庁の認容がある場合のみ。聴聞と比較して簡易な手続き。",
+            "beginner": "弁明は原則として書面（弁明書）で行います。証拠も提出できます。口頭は役所が認めた場合だけです。",
+            "exam": "書面主義の原則と口頭の例外。聴聞との手続の違いを比較して理解。"
+          },
+          {
+            "num": "30",
+            "title": "弁明の機会の付与の通知の方式",
+            "importance": "frequent",
+            "chapter": "不利益処分",
+            "text": "第三十条　行政庁は、弁明書の提出期限までに相当な期間をおいて、名あて人に対し、予定される不利益処分の内容・根拠法令、原因事実、弁明書の提出先・期限を書面で通知しなければならない。",
+            "practical": "弁明通知の書面主義と通知事項。聴聞通知（15条）と比較すると簡略。教示事項が不要な点が異なる。",
+            "beginner": "弁明の機会を与える前に、どんな処分が予定されているか等を書面で知らせなければなりません。",
+            "exam": "聴聞の通知（15条）との比較が頻出。通知事項の違いを整理。"
+          },
+          {
+            "num": "31",
+            "title": "聴聞に関する手続の準用",
+            "importance": "basic",
+            "chapter": "不利益処分",
+            "text": "第三十一条　第十五条第三項及び第十六条の規定は、弁明の機会の付与について準用する。",
+            "practical": "公示送達（15条3項）と代理人（16条）の規定を準用。弁明の機会の付与にも適用される。",
+            "beginner": "聴聞の規定のうち、公示送達と代理人に関する部分は弁明にも適用されます。",
+            "exam": "準用される規定（公示送達・代理人）を正確に把握。"
           }
         ]
       }
     ]
   },
   {
-    id: 'order',
-    title: '命令等の制定',
-    desc: 'パブリックコメント・意見公募手続（第38条～第45条）',
-    groups: [
+    "id": "guidance",
+    "title": "行政指導・処分等の求め",
+    "desc": "行政指導の原則・方式・中止等の求め・処分等の求め（第32条～第36条の3）",
+    "groups": [
       {
-        title: '意見公募手続き（第38条～第45条）',
-        articles: Array.from({length: 8}, (_, i) => ({
-          num: i + 38,
-          title: `第${i + 38}条の規定`,
-          importance: i < 3 ? 'important' : 'frequent',
-          text: `（第${i + 38}条）
-第${i + 38}条の条文内容がここに入ります。`,
-          practical: `第${i + 38}条の実務・試験向け解説です。`,
-          beginner: `第${i + 38}条の初学者向け解説です。`,
-          exam: `第${i + 38}条の試験対策ポイントです。`
-        }))
+        "title": "行政指導・処分等の求め（第32条～第36の3条）",
+        "articles": [
+          {
+            "num": "32",
+            "title": "行政指導の一般原則",
+            "importance": "important",
+            "chapter": "行政指導・処分等の求め",
+            "text": "（行政指導の一般原則）\n第三十二条　行政指導に携わる者は、当該行政機関の任務又は所掌事務の範囲を逸脱してはならないこと及び行政指導の内容があくまでも相手方の任意の協力によってのみ実現されるものであることに留意しなければならない。\n２　行政指導に携わる者は、その相手方が行政指導に従わなかったことを理由として、不利益な取扱いをしてはならない。",
+            "practical": "行政指導の基本原則。①所掌事務範囲内②任意性の原則③不従事を理由とする不利益取扱いの禁止。最判平成17年7月15日（品川マンション事件）等の判例が重要。",
+            "beginner": "行政指導は、あくまで相手の自主的な協力で実現するものです。\n\n3つのルール：\n①担当範囲を超えてはいけない\n②強制してはいけない\n③従わないからといって不利益な扱いをしてはいけない",
+            "exam": "任意性の原則と不利益取扱い禁止は超頻出。品川マンション事件判例も重要。"
+          },
+          {
+            "num": "33",
+            "title": "申請に関連する行政指導",
+            "importance": "important",
+            "chapter": "行政指導・処分等の求め",
+            "text": "第三十三条　申請の取下げ又は内容の変更を求める行政指導にあっては、申請者が行政指導に従う意思がない旨を表明したにもかかわらず当該行政指導を継続すること等により当該申請者の権利の行使を妨げるようなことをしてはならない。",
+            "practical": "申請関連の行政指導の限界。「従う意思がない旨の表明」後の継続禁止。申請者の権利行使の妨害禁止。",
+            "beginner": "許可申請をした人に「取り下げてください」と行政指導する場合、その人が「従いません」と言ったら、それ以上続けてはいけません。",
+            "exam": "「従う意思がない旨の表明」後の継続禁止が核心。判例との関連も重要。"
+          },
+          {
+            "num": "34",
+            "title": "許認可等の権限に関連する行政指導",
+            "importance": "frequent",
+            "chapter": "行政指導・処分等の求め",
+            "text": "第三十四条　許認可等の権限を行使できない場合又は行使する意思がない場合の行政指導において、当該権限を行使し得る旨を殊更に示すことにより相手方に従うことを余儀なくさせるようなことをしてはならない。",
+            "practical": "権限行使の示唆による事実上の強制の禁止。許認可権限をちらつかせた行政指導の規制。",
+            "beginner": "許可する権限がないのに「許可しないかもしれませんよ」と言って指導に従わせようとしてはいけません。",
+            "exam": "権限行使の示唆禁止の趣旨と内容を理解。"
+          },
+          {
+            "num": "35",
+            "title": "行政指導の方式",
+            "importance": "important",
+            "chapter": "行政指導・処分等の求め",
+            "text": "（行政指導の方式）\n第三十五条　行政指導に携わる者は、その相手方に対して、行政指導の趣旨及び内容並びに責任者を明確に示さなければならない。\n２　許認可等の権限を示す場合は、根拠法令の条項、要件、要件適合理由を示す。\n３　口頭の場合、求めがあれば書面を交付（行政上特別の支障がない限り）。",
+            "practical": "行政指導の明確化義務。趣旨・内容・責任者の3つを明示。権限行使の示唆時の追加3事項。口頭の場合の書面交付請求権。平成17年改正で2項追加。",
+            "beginner": "行政指導をするときは「何のために」「どんな内容か」「誰の責任か」を明確にしなければなりません。口頭の場合、求められたら書面を交付する義務があります。",
+            "exam": "趣旨・内容・責任者の3事項の明示義務と書面交付請求権は頻出。"
+          },
+          {
+            "num": "36",
+            "title": "複数の者を対象とする行政指導",
+            "importance": "basic",
+            "chapter": "行政指導・処分等の求め",
+            "text": "第三十六条　同一の行政目的のために複数の者に行政指導をするときは、あらかじめ行政指導指針を定め、公表しなければならない。",
+            "practical": "行政指導指針の設定・公表義務。同一条件の複数者への行政指導に適用。",
+            "beginner": "同じ目的で複数の人に行政指導をする場合は、共通のガイドライン（行政指導指針）を事前に作って公表しなければなりません。",
+            "exam": "行政指導指針の設定・公表義務を理解。"
+          },
+          {
+            "num": "36の2",
+            "title": "行政指導の中止等の求め",
+            "importance": "important",
+            "chapter": "行政指導・処分等の求め",
+            "text": "（行政指導の中止等の求め）\n第三十六条の二　法令に違反する行為の是正を求める行政指導の相手方は、当該行政指導が法律の要件に適合しないと思料するときは、中止等の措置を求めることができる。\n２　申出書の記載事項（6事項）。\n３　行政機関は、必要な調査を行い、要件に適合しないときは中止等の措置をとらなければならない。",
+            "practical": "平成26年改正で新設された重要規定。行政指導の相手方からの中止等の申出権。法律に根拠がある行政指導に限定。行政機関には調査義務と措置義務がある。",
+            "beginner": "法律に基づく行政指導が間違っていると思う場合、「やめてください」と申し出ることができます。申し出があったら、役所は調査して必要なら中止しなければなりません。",
+            "exam": "平成26年改正の新設規定として頻出。申出の要件と行政機関の義務を正確に理解。"
+          },
+          {
+            "num": "36の3",
+            "title": "処分等の求め",
+            "importance": "important",
+            "chapter": "行政指導・処分等の求め",
+            "text": "第三十六条の三　何人も、法令に違反する事実がある場合において、処分又は行政指導がされていないと思料するときは、当該処分又は行政指導をすることを求めることができる。\n２　申出書の記載事項。\n３　行政庁等は、必要な調査を行い、必要があると認めるときは、当該処分又は行政指導をしなければならない。",
+            "practical": "平成26年改正で新設。「何人も」申出可能な点が36条の2との違い。法令違反事実の是正のための処分又は行政指導を求める制度。行政の不作為に対する国民のチェック機能。",
+            "beginner": "法令違反の事実を見つけた人は、誰でも「取り締まってください」と申し出ることができます。行政はこれを受けて調査し、必要なら処分や行政指導を行います。",
+            "exam": "「何人も」が主体である点が特徴。36条の2との比較が頻出。平成26年改正の重要条文。"
+          }
+        ]
       }
     ]
   },
   {
-    id: 'misc',
-    title: '雑則',
-    desc: '委任・適用等（第46条）',
-    groups: [
+    "id": "notification",
+    "title": "届出",
+    "desc": "届出の手続き（第37条）",
+    "groups": [
       {
-        title: '雑則（第46条）',
-        articles: [
+        "title": "届出（第37条）",
+        "articles": [
           {
-            num: 46,
-            title: '雑則',
-            importance: 'basic',
-            text: `第四十六条　この法律に定めるもののほか、この法律の実施のため必要な事項は、政令で定める。`,
-            practical: '政令への委任規定。行政手続法の詳細な実施事項について政令で定めることを可能にしている。',
-            beginner: 'この法律の細かい決まりは、政令（内閣が決める規則）で定めることができるという条文です。',
-            exam: 'シンプルな委任規定として出題されることがある。'
+            "num": "37",
+            "title": "届出",
+            "importance": "frequent",
+            "chapter": "届出",
+            "text": "（届出）\n第三十七条　届出が届出書の記載事項に不備がないこと、届出書に必要な書類が添付されていることその他の法令に定められた届出の形式上の要件に適合している場合は、当該届出が法令により当該届出の提出先とされている機関の事務所に到達したときに、当該届出をすべき手続上の義務が履行されたものとする。",
+            "practical": "届出の効力発生を到達主義で明確化。形式要件を満たした届出が到達した時点で手続義務が履行されたとみなす。実質審査は不要。届出の「受理・不受理」概念を排除した重要規定。",
+            "beginner": "必要な書類が全て揃った届出が、決められた場所に届いた時点で、届出義務は果たされたことになります。\n\n役所が「受理しません」と言うことはできません。届けば義務履行完了です。",
+            "exam": "到達主義と受理概念の排除は頻出。形式要件の充足のみで義務履行とされる点が重要。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "opinion",
+    "title": "意見公募手続等",
+    "desc": "パブリックコメント制度（第38条～第45条）",
+    "groups": [
+      {
+        "title": "意見公募手続等（第38条～第45条）",
+        "articles": [
+          {
+            "num": "38",
+            "title": "命令等を定める場合の一般原則",
+            "importance": "frequent",
+            "chapter": "意見公募手続等",
+            "text": "第三十八条　命令等制定機関は、命令等を定めるに当たっては、根拠法令の趣旨に適合するものとしなければならない。\n２　制定後も実施状況等を勘案し、適正を確保するよう努める。",
+            "practical": "命令等の適法性確保義務（1項）と見直し努力義務（2項）。命令等制定の一般原則。",
+            "beginner": "政令や省令などを作るときは、もととなる法律の趣旨に合ったものにしなければなりません。作った後も見直す努力が必要です。",
+            "exam": "命令等の適法性確保義務と見直し努力義務を理解。"
+          },
+          {
+            "num": "39",
+            "title": "意見公募手続",
+            "importance": "important",
+            "chapter": "意見公募手続等",
+            "text": "第三十九条　命令等制定機関は、命令等を定めようとする場合には、命令等の案等を公示し、30日以上の意見提出期間を定めて広く一般の意見を求めなければならない。\n２　案は具体的かつ明確で、題名と根拠法令を明示。\n３　意見提出期間は30日以上。\n４　適用除外（8類型）。",
+            "practical": "いわゆるパブリックコメント制度の中核規定。命令等の案の公示と30日以上の意見提出期間が必須。8類型の適用除外あり（公益上の緊急性等）。平成17年改正で導入。",
+            "beginner": "国が規則（政令・省令等）を作るときは、案を公表して30日以上の期間を設け、国民から広く意見を募集しなければなりません（パブリックコメント）。",
+            "exam": "パブコメの手続要件（案の公示・30日以上・意見提出期間）は頻出。8類型の適用除外も重要。"
+          },
+          {
+            "num": "40",
+            "title": "意見公募手続の特例",
+            "importance": "basic",
+            "chapter": "意見公募手続等",
+            "text": "第四十条　やむを得ない理由があるときは30日未満の意見提出期間を定めることができる。その場合は理由を明示。\n２　委員会等が準じた手続を実施した場合は、自ら意見公募手続を実施しなくてよい。",
+            "practical": "30日未満の意見提出期間の特例と委員会等による代替手続。",
+            "beginner": "やむを得ない場合は30日より短い期間でもOKですが、その理由を明らかにしなければなりません。",
+            "exam": "30日未満の特例要件と理由明示義務を理解。"
+          },
+          {
+            "num": "41",
+            "title": "意見公募手続の周知等",
+            "importance": "basic",
+            "chapter": "意見公募手続等",
+            "text": "第四十一条　命令等制定機関は、意見公募手続の実施について周知するよう努めるとともに、関連情報の提供に努める。",
+            "practical": "意見公募手続の周知と情報提供の努力義務。",
+            "beginner": "パブリックコメントを行うことを広く知らせ、関連情報を提供するよう努めます。",
+            "exam": "努力義務である点を理解。"
+          },
+          {
+            "num": "42",
+            "title": "提出意見の考慮",
+            "importance": "important",
+            "chapter": "意見公募手続等",
+            "text": "第四十二条　命令等制定機関は、意見提出期間内に提出された意見を十分に考慮しなければならない。",
+            "practical": "提出意見の「十分な考慮」義務。意見に従う義務はないが、十分に検討する義務がある。",
+            "beginner": "提出された意見は十分に考慮しなければなりません（必ず従う義務はありません）。",
+            "exam": "「十分に考慮」の意味（拘束力はないが検討義務あり）が重要。"
+          },
+          {
+            "num": "43",
+            "title": "結果の公示等",
+            "importance": "important",
+            "chapter": "意見公募手続等",
+            "text": "第四十三条　命令等を定めた場合、公布と同時期に、題名・案の公示日・提出意見・考慮結果等を公示しなければならない。\n４　命令等を定めないこととした場合もその旨を公示。\n５　意見公募手続を実施しなかった場合は、その旨と理由を公示。",
+            "practical": "結果の公示義務。提出意見と考慮結果の公示により透明性を確保。不制定の場合や手続不実施の場合の公示義務も規定。",
+            "beginner": "パブコメの結果は、集まった意見やそれをどう考慮したかを含めて公示しなければなりません。規則を作らないことにした場合や、パブコメを実施しなかった場合もその旨を公示します。",
+            "exam": "結果公示の内容（4事項）と不制定時・不実施時の公示義務が頻出。"
+          },
+          {
+            "num": "44",
+            "title": "準用",
+            "importance": "basic",
+            "chapter": "意見公募手続等",
+            "text": "第四十四条　委員会等が準じた手続を実施した場合の準用規定。",
+            "practical": "40条2項の場合の42条・43条の準用。読替規定を含む。",
+            "beginner": "委員会等がパブコメに準じた手続を行った場合の読替規定です。",
+            "exam": "準用関係の正確な理解。出題頻度は低い。"
+          },
+          {
+            "num": "45",
+            "title": "公示の方法",
+            "importance": "basic",
+            "chapter": "意見公募手続等",
+            "text": "第四十五条　公示は、電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法により行う。\n２　必要な事項は総務大臣が定める。",
+            "practical": "公示のオンライン方式。e-Govパブリックコメント等を想定。",
+            "beginner": "パブコメの公示はインターネット等の電子的方法で行います。",
+            "exam": "公示方法がオンライン方式である点を理解。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "supplement",
+    "title": "補則",
+    "desc": "地方公共団体の措置（第46条）",
+    "groups": [
+      {
+        "title": "補則（第46条）",
+        "articles": [
+          {
+            "num": "46",
+            "title": "地方公共団体の措置",
+            "importance": "frequent",
+            "chapter": "補則",
+            "text": "（地方公共団体の措置）\n第四十六条　地方公共団体は、第三条第三項において第二章から前章までの規定を適用しないこととされた処分、行政指導及び届出並びに命令等を定める行為に関する手続について、この法律の規定の趣旨にのっとり、行政運営における公正の確保と透明性の向上を図るため必要な措置を講ずるよう努めなければならない。",
+            "practical": "地方公共団体の努力義務規定。3条3項で適用除外とされた条例・規則に基づく行為について、行政手続法の趣旨に則った措置を講じるよう努力義務を課す。多くの自治体は行政手続条例を制定している。",
+            "beginner": "地方自治体の条例に基づく手続きにはこの法律は直接適用されませんが、この法律の考え方に従って公正で透明な手続きを整えるよう努力しなければなりません。多くの自治体は行政手続条例を作っています。",
+            "exam": "3条3項との関係は頻出。地方公共団体が行政手続条例を制定する法的根拠。"
           }
         ]
       }
     ]
   }
 ];
-
-// ===== e-Gov法令検索URL・API URL生成 =====
-function getEgovUrl() {
-  // 行政手続法の確実に動作するURL
-  return 'https://laws.e-gov.go.jp/law/405AC0000000088';
-}
-
-function getEgovApiUrl(articleNum) {
-  // e-Gov法令API（条文直接取得）
-  const lawId = '405AC0000000088'; // 行政手続法のID
-  return `https://laws.e-gov.go.jp/api/1/articles;lawId=${lawId};article=${articleNum}`;
-}
-
-// ===== 状態管理 =====
-let currentFlow = 'overview';
-let openGroups = {};
-let openArticles = {};
-let searchQuery = '';
-
-// ===== ユーティリティ関数 =====
-function getImportanceBadge(importance) {
-  switch(importance) {
-    case 'important': return { text: '重要', class: 'badge-important' };
-    case 'frequent': return { text: '頻出', class: 'badge-frequent' };
-    default: return { text: '基本', class: 'badge-basic' };
-  }
-}
-
-function getTotalArticleCount() {
-  let count = 0;
-  FLOW_SECTIONS.forEach(section => {
-    section.groups.forEach(group => {
-      count += group.articles.length;
-    });
-  });
-  return count;
-}
-
-function matchSearch(article) {
-  if (!searchQuery) return true;
-  const q = searchQuery.toLowerCase();
-  return (
-    article.title.toLowerCase().includes(q) ||
-    article.text.toLowerCase().includes(q) ||
-    article.practical.toLowerCase().includes(q) ||
-    article.beginner.toLowerCase().includes(q) ||
-    (article.exam && article.exam.toLowerCase().includes(q))
-  );
-}
-
-// ===== レンダリング関数 =====
-function renderNavTabs() {
-  const nav = document.getElementById('navTabs');
-  let html = '';
-  
-  FLOW_SECTIONS.forEach(section => {
-    const isActive = currentFlow === section.id;
-    html += `<div class="nav-item ${isActive ? 'active' : ''}" onclick="setFlow('${section.id}')">
-      ${section.title}
-    </div>`;
-  });
-  
-  nav.innerHTML = html;
-}
-
-function renderContent() {
-  const content = document.getElementById('mainContent');
-  let html = '';
-  let visibleCount = 0;
-  
-  const totalCount = getTotalArticleCount();
-  
-  // 完成記念表示
-  html += `<div class="completion">
-    <strong>🎉 行政手続法 全46条完成！ 🎉</strong><br>
-    行政手続きの基本法となる全条文解説ガイドが完成しました！<br>
-    <span class="emoji">📋</span><span class="emoji">✨</span><span class="emoji">📝</span><br>
-    平成5年制定・令和3年改正対応の全${totalCount}条を完全収録
-  </div>`;
-  
-  // API活用の案内
-  html += `<div class="api-discovery">
-    <strong>🚀 e-Gov法令API完全対応！</strong><br>
-    各条文から政府公式のe-Gov法令APIで正確な条文データに直接アクセス<br>
-    <small>※「API直接取得」で条文XML取得、「e-Gov法令検索」で公式ページを表示します</small>
-  </div>`;
-  
-  const section = FLOW_SECTIONS.find(s => s.id === currentFlow);
-  if (!section) return;
-  
-  html += `<div class="flow-section">
-    <div class="flow-header">
-      <div class="flow-title">${section.title}</div>
-      <div class="flow-desc">${section.desc}</div>
-    </div>
-    <div class="flow-body">`;
-  
-  section.groups.forEach((group, groupIndex) => {
-    const groupKey = `${currentFlow}-${groupIndex}`;
-    const isGroupOpen = openGroups[groupKey];
-    const visibleArticles = group.articles.filter(matchSearch);
-    
-    if (visibleArticles.length === 0) return;
-    
-    html += `<div class="art-group ${isGroupOpen ? 'open' : ''}" id="group-${groupKey}">
-      <div class="art-group-header" onclick="toggleGroup('${groupKey}')">
-        <div class="art-group-title">${group.title}</div>
-        <div style="display:flex;align-items:center;gap:8px;">
-          <span class="art-group-count">${visibleArticles.length}条</span>
-          <span class="art-group-arrow">▶</span>
-        </div>
-      </div>
-      <div class="art-group-body">
-        <div class="art-list">`;
-    
-    visibleArticles.forEach(article => {
-      const articleKey = `${groupKey}-${article.num}`;
-      const isArticleOpen = openArticles[articleKey];
-      const badge = getImportanceBadge(article.importance);
-      visibleCount++;
-      
-      html += `<div class="art-item ${isArticleOpen ? 'open' : ''}" id="article-${articleKey}">
-        <div class="art-header" onclick="toggleArticle('${articleKey}')">
-          <div class="art-num">第${article.num}条</div>
-          <div class="art-title-text">
-            ${article.title}
-            <span class="art-badge ${badge.class}">${badge.text}</span>
-          </div>
-          <span class="art-arrow">▶</span>
-        </div>`;
-      
-      if (isArticleOpen) {
-        html += `<div class="art-detail">
-          <div class="art-text">
-            <div class="art-text-header">
-              <div class="art-text-title">📋 条文</div>
-              <div class="art-links">
-                <a href="${getEgovApiUrl(article.num)}" target="_blank" class="api-link" title="e-Gov法令APIで第${article.num}条のXMLデータを直接取得">API直接取得</a>
-                <a href="${getEgovUrl()}" target="_blank" class="egov-link" title="e-Gov法令検索で第${article.num}条を確認">e-Gov法令検索</a>
-              </div>
-            </div>
-            <div class="art-text-body">${article.text}</div>
-          </div>
-          
-          <div class="explanations">
-            <div class="exp-item exp-practical">
-              <div class="exp-header">📘 実務・試験向け解説</div>
-              <div class="exp-body">${article.practical.replace(/\n/g, '<br>')}</div>
-            </div>
-            
-            <div class="exp-item exp-beginner">
-              <div class="exp-header">🌱 初学者向け解説</div>
-              <div class="exp-body">${article.beginner.replace(/\n/g, '<br>')}</div>
-            </div>
-            
-            ${article.exam ? `<div class="exp-item exp-exam">
-              <div class="exp-header">🎯 試験対策ポイント</div>
-              <div class="exp-body">${article.exam.replace(/\n/g, '<br>')}</div>
-            </div>` : ''}
-          </div>
-        </div>`;
-      }
-      
-      html += '</div>';
-    });
-    
-    html += '</div></div></div>';
-  });
-  
-  html += '</div></div>';
-  
-  if (visibleCount === 0) {
-    html = `<div class="no-results">
-      🔍 「${searchQuery}」に一致する条文が見つかりませんでした。<br>
-      キーワードを変更して再度検索してください。
-    </div>`;
-  }
-  
-  content.innerHTML = html;
-  updateCounts(visibleCount);
-}
-
-function updateCounts(visibleCount) {
-  const totalCount = getTotalArticleCount();
-  document.getElementById('totalBadge').textContent = `全${totalCount}条完成！`;
-  
-  const searchCount = document.getElementById('searchCount');
-  if (searchQuery) {
-    searchCount.textContent = `${visibleCount}件の条文が見つかりました`;
-  } else {
-    searchCount.textContent = '';
-  }
-}
-
-// ===== イベント処理 =====
-function setFlow(flowId) {
-  currentFlow = flowId;
-  openGroups = {};
-  openArticles = {};
-  renderNavTabs();
-  renderContent();
-  window.scrollTo(0, 0);
-}
-
-function toggleGroup(groupKey) {
-  openGroups[groupKey] = !openGroups[groupKey];
-  if (!openGroups[groupKey]) {
-    Object.keys(openArticles).forEach(key => {
-      if (key.startsWith(groupKey)) {
-        delete openArticles[key];
-      }
-    });
-  }
-  renderContent();
-}
-
-function toggleArticle(articleKey) {
-  const wasOpen = openArticles[articleKey];
-  openArticles = {};
-  if (!wasOpen) {
-    openArticles[articleKey] = true;
-  }
-  renderContent();
-  
-  if (!wasOpen) {
-    setTimeout(() => {
-      const element = document.getElementById(`article-${articleKey}`);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }
-    }, 50);
-  }
-}
-
-function doSearch() {
-  searchQuery = document.getElementById('searchInput').value.trim();
-  openGroups = {};
-  openArticles = {};
-  renderContent();
-}
-
-// ===== 初期化 =====
-renderNavTabs();
-renderContent();
+function getEgovUrl(){return'https://laws.e-gov.go.jp/law/405AC0000000088';}
+function getEgovApiUrl(n){return'https://laws.e-gov.go.jp/api/1/articles;lawId=405AC0000000088;article='+n;}
+let currentFlow=FLOW_SECTIONS[0].id,openGroups={},openArticles={},searchQuery='';
+function getImportanceBadge(i){switch(i){case'important':return{text:'重要',class:'badge-important'};case'frequent':return{text:'頻出',class:'badge-frequent'};default:return{text:'基本',class:'badge-basic'};}}
+function matchSearch(a){if(!searchQuery)return true;const q=searchQuery.toLowerCase();return a.title.toLowerCase().includes(q)||a.text.toLowerCase().includes(q)||a.practical.toLowerCase().includes(q)||a.beginner.toLowerCase().includes(q)||(a.exam&&a.exam.toLowerCase().includes(q));}
+function renderNavTabs(){const nav=document.getElementById('navTabs');nav.innerHTML=FLOW_SECTIONS.map(s=>`<div class="nav-item ${currentFlow===s.id?'active':''}" onclick="setFlow('${s.id}')">${s.title}</div>`).join('');}
+function renderContent(){const content=document.getElementById('mainContent');let html='',visibleCount=0;const section=FLOW_SECTIONS.find(s=>s.id===currentFlow);if(!section)return;
+html+=`<div class="flow-section"><div class="flow-header"><div class="flow-title">${section.title}</div><div class="flow-desc">${section.desc}</div></div><div class="flow-body">`;
+section.groups.forEach((group,gi)=>{const gk=`${currentFlow}-${gi}`;const isGroupOpen=openGroups[gk];const visible=group.articles.filter(matchSearch);if(!visible.length)return;
+html+=`<div class="art-group ${isGroupOpen?'open':''}" id="group-${gk}"><div class="art-group-header" onclick="toggleGroup('${gk}')"><div class="art-group-title">${group.title}</div><div style="display:flex;align-items:center;gap:8px;"><span class="art-group-count">${visible.length}条</span><span class="art-group-arrow">▶</span></div></div><div class="art-group-body"><div class="art-list">`;
+visible.forEach(a=>{const ak=`${gk}-${a.num}`;const isOpen=openArticles[ak];const badge=getImportanceBadge(a.importance);visibleCount++;
+const numLabel=a.num.includes('の')?`第${a.num}条`:`第${a.num}条`;
+html+=`<div class="art-item ${isOpen?'open':''}" id="article-${ak}"><div class="art-header" onclick="toggleArticle('${ak}')"><div class="art-num">${numLabel}</div><div class="art-title-text">${a.title}<span class="art-badge ${badge.class}">${badge.text}</span></div><span class="art-arrow">▶</span></div>`;
+if(isOpen){const apiNum=a.num.replace('の2','').replace('の3','');html+=`<div class="art-detail"><div class="art-text"><div class="art-text-header"><div class="art-text-title">📋 条文</div><div class="art-links"><a href="${getEgovApiUrl(apiNum)}" target="_blank" class="api-link">API直接取得</a><a href="${getEgovUrl()}" target="_blank" class="egov-link">e-Gov法令検索</a></div></div><div class="art-text-body">${a.text}</div></div><div class="explanations"><div class="exp-item exp-practical"><div class="exp-header">📘 実務・試験向け解説</div><div class="exp-body">${a.practical.replace(/\n/g,'<br>')}</div></div><div class="exp-item exp-beginner"><div class="exp-header">🌱 初学者向け解説</div><div class="exp-body">${a.beginner.replace(/\n/g,'<br>')}</div></div>${a.exam?`<div class="exp-item exp-exam"><div class="exp-header">🎯 試験対策ポイント</div><div class="exp-body">${a.exam.replace(/\n/g,'<br>')}</div></div>`:''}</div></div>`;}
+html+=`</div>`;});
+html+=`</div></div></div>`;});
+html+=`</div></div>`;
+if(!visibleCount){html=`<div class="no-results">🔍 「${searchQuery}」に一致する条文が見つかりませんでした。</div>`;}
+content.innerHTML=html;
+const sc=document.getElementById('searchCount');sc.textContent=searchQuery?`${visibleCount}件の条文が見つかりました`:'';}
+function setFlow(id){currentFlow=id;openGroups={};openArticles={};renderNavTabs();renderContent();window.scrollTo(0,0);}
+function toggleGroup(gk){openGroups[gk]=!openGroups[gk];if(!openGroups[gk]){Object.keys(openArticles).forEach(k=>{if(k.startsWith(gk))delete openArticles[k];});}renderContent();}
+function toggleArticle(ak){const wasOpen=openArticles[ak];openArticles={};if(!wasOpen)openArticles[ak]=true;renderContent();if(!wasOpen)setTimeout(()=>{const el=document.getElementById('article-'+ak);if(el)el.scrollIntoView({behavior:'smooth',block:'nearest'});},50);}
+function doSearch(){searchQuery=document.getElementById('searchInput').value.trim();openGroups={};openArticles={};renderContent();}
+renderNavTabs();renderContent();
 </script>
 </body>
 </html>
